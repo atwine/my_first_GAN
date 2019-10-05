@@ -5,7 +5,7 @@ I am still a novice at this and that is why I want to try out the first implemen
 
 ## Credit to: R-Suresh ( I borrowed this implementation from him)
 
-I am using the MNIST dataset on fashion: [here] (https://github.com/zalandoresearch/fashion-mnist)
+I am using the MNIST dataset on fashion: [here](https://github.com/zalandoresearch/fashion-mnist)
 
 I hope when you go through the same process as I did in my notebook you will get some ideas on how to work with this kind of neural net.
 
@@ -45,6 +45,8 @@ def build_generator(self):
 ```
 This is the neural net that generates information from the dataset.
 
+## Dicriminator Function:
+
 ```
 def build_discriminator(self):
 
@@ -76,3 +78,6 @@ git clone https://github.com/atwine/my_first_GAN.git
 cd into the folder and fireup jupyternotebook
 
 ```
+### Architecture Change
+For my Second part -- I have changed the arhictecture of the generator and discriminator and run 10,000 epochs.
+There is no particular formular I have used to increase the architecture its on my part experimentation.
