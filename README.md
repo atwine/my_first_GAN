@@ -81,3 +81,7 @@ cd into the folder and fireup jupyternotebook
 ### Architecture Change
 For my Second part -- I have changed the arhictecture of the generator and discriminator and run 10,000 epochs.
 There is no particular formular I have used to increase the architecture its on my part experimentation.
+
+## Resources
+1- Have a look at this (article)[https://medium.com/@keisukeumezawa/dcgan-generate-the-images-with-deep-convolutinal-gan-55edf947c34b)
+
